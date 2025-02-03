@@ -34,7 +34,7 @@ var upgradeCmd = &cobra.Command{
 		if err != nil {
 			return fmt.Errorf("failed to determine latest version: %w", err)
 		}
-		fmt.Printf("aarafat-tag: getting the latest version using GitHub tags method.... %s\n", latest)
+		fmt.Printf("aarafat-tag: getting the latest version using GitHub tags method.... \n")
 		fmt.Printf("Latest tag: %s\n", latest)
 
 		// Create a temporary file to hold the upgrade script.
